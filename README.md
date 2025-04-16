@@ -17,11 +17,11 @@ The goal of this project is to evaluate the impact of the proposed **Modified TO
 The repository is organized as follows:
 ```text
 Permutaion-Entropy-vs-Modified-TOPSIS/
-│ ├── datasets/
+│ ├── Datasets/
 │    ├── modified_ahp_topsis/
-│    │ ├── modified_ahp_topsis_20.csv
-│    │ ├── modified_ahp_topsis_30.csv
-│    │ └──modified_ahp_topsis_50
+│    │ ├── disteressed.csv
+│    │ ├── behavioral.csv
+│    │ └──enthusiastic.csv
 │
 │    ├── permutation_based_entropy/
 │    │ ├── enthusiatic.csv
@@ -29,7 +29,7 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 │    │ └── distressed.csv
 │
 │    └── README.md
-│ ├── notebooks/
+│ ├── Notebooks/
 │     ├── modefied_ahp_TOPSIS_20_30_50.ipynb
 │     ├── permutation_based_entropy.ipynb
 │     └── README.md
