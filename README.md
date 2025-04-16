@@ -37,10 +37,10 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 └──── README.md
 ```
 ### Description:
-- **datasets/**: Contains two main folders:
-  - **modified_ahp_topsis/**: Contains three datasets for the AHP-Modified-TOPSIS method.
-  - **permutation_based_entropy/**: Contains three datasets for the Permutation-based Entropy method.
-- **notebooks/**: Contains Jupyter notebooks for data analysis, along with a `README.md` file for explaining the notebooks.
+- **datasets**: Contains two main folders:
+  - **modified_ahp_topsis**: Contains three datasets for the AHP-Modified-TOPSIS method.
+  - **permutation_based_entropy**: Contains three datasets for the Permutation-based Entropy method.
+- **notebooks**: Contains Jupyter notebooks for data analysis, along with a `README.md` file for explaining the notebooks.
 - **LICENSE**: Contains the repository's license file.
 - **README.md**: The main README file for the repository, which provides an overview of the project.
 ##  Installation & How to Run
