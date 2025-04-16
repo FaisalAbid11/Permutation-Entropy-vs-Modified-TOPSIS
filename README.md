@@ -166,7 +166,9 @@ To compare the effectiveness of the two feature selection pipelines, the followi
 
 This evaluation helped determine which method yielded better predictive performance in identifying employee turnover intention (TOI), ultimately highlighting the impact of the proposed **Modified TOPSIS** method. 
 
-## Performance Comparison: Modified TOPSIS vs Permutation-Based Entropy
+## Result
+
+### Modified TOPSIS vs Permutation-Based Entropy
 
 The table below compares the performance of the Random Forest model on datasets generated using two different feature selection methods. Across all categories and evaluation metrics, the **Modified TOPSIS method consistently outperformed** the **Permutation-Based Entropy** method, demonstrating its effectiveness in selecting impactful features for predicting employee turnover intention.
 
