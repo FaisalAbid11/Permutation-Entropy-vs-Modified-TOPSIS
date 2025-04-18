@@ -83,7 +83,7 @@ This repository is organized into the following directories, each serving a spec
 **2. Upload the required datasets when prompted, or mount your Google Drive.**
 
 - **If you're loading datasets stored in your ***GitHub repository***, use the `raw` file URL:**
-Click on the dataset file in the repository. Then, click the "Raw" button located at the top-right corner of the file preview. This will open the raw data in a new tab. From there, copy the URL from the address bar and paste it into the variable that will store the file path inside single or double quote.For Example, to open the distressed dataset in AHP-MODIFIED-TOPSIS-EVALUATION folder:
+Click on the dataset file in the repository. Then, click the "Raw" button located at the top-right corner of the file preview. This will open the raw data in a new tab. From there, copy the URL from the address bar and paste it into the variable that will store the file path inside single or double quote.For Example, to open the distressed dataset:
 
 ```python
 import pandas as pd
