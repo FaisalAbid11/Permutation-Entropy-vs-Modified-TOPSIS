@@ -17,22 +17,27 @@ The goal of this project is to evaluate the impact of the proposed **Modified TO
 The repository is organized as follows:
 ```text
 Permutaion-Entropy-vs-Modified-TOPSIS/
-│ ├── Datasets/
-│    ├── modified_ahp_topsis/
-│    │ ├── disteressed.csv
-│    │ ├── behavioral.csv
-│    │ └──enthusiastic.csv
+│ ├── AHP-MODIFIED-TOPSIS-EVALUATION/
+│    ├── behavioral.csv
+│    ├── disteressed.csv
+│    ├── enthusiastic.csv
+│    └── modified_ahp_TOPSIS_20_30_50.ipynb
 │
-│    ├── permutation_based_entropy/
-│    │ ├── enthusiatic.csv
-│    │ ├── behavioral.csv
-│    │ └── distressed.csv
+│ ├── AHP-modified-topsis-de-pareto/
+│    ├── AHP.xlsx
+│    ├── modified_topsis.xlsx
+│    └──readme.md
 │
-│    └── README.md
-│ ├── Notebooks/
-│     ├── modefied_ahp_TOPSIS_20_30_50.ipynb
-│     ├── permutation_based_entropy.ipynb
-│     └── README.md
+│ ├── MODIFIED-TOPSIS-feat-selection/
+│    ├── MODIFIED-TOPSIS-Feat.ipynb
+│
+│ ├── Permutation-based-entropy/
+│    ├── behavioral_employees.csv
+│    ├── disteressed_employees.csv
+│    ├── enthusiastic_employees.csv
+│    ├── new numerical.csv
+│    └── permutation_based_entropy.ipynb
+│
 │ ├── LICENSE
 └──── README.md
 ```
