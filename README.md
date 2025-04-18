@@ -42,12 +42,25 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 └──── README.md
 ```
 ### Description:
-- **datasets**: Contains two main folders:
-  - **modified_ahp_topsis**: Contains three datasets for the AHP-Modified-TOPSIS method.
-  - **permutation_based_entropy**: Contains three datasets for the Permutation-based Entropy method.
-- **notebooks**: Contains Jupyter notebooks for data analysis, along with a `README.md` file for explaining the notebooks.
-- **LICENSE**: Contains the repository's license file.
-- **README.md**: The main README file for the repository, which provides an overview of the project.
+This repository is organized into the following directories, each serving a specific part of the comparative analysis between Permutation Entropy and Modified TOPSIS:
+
+- **AHP-MODIFIED-TOPSIS-EVALUATION/**
+  Contains CSV datasets representing different employee states (behavioral, distressed, enthusiastic) and a Jupyter notebook that uses these datasets to train rf model and sees how well a rf works when datasets are created using the AHP-Modified-Topsis+De-pareto principle.
+
+- **AHP-modified-topsis-de-pareto/**
+  Includes supporting Excel files used for AHP scoring and modified TOPSIS rankings.
+
+- **MODIFIED-TOPSIS-feat-selection/**
+  Contains the implementation of the Modified TOPSIS feature selection method using robust distance measures. 
+- **Permutation-based-entropy/**
+  This folder includes datasets formatted from entropy-based analysis and a notebook that applies permutation entropy techniques to assess feature importance across employee types using cleaned another dataset (`new numerical.csv`) ready for analysis.
+
+- **LICENSE**
+  The license under which this repository is distributed.
+
+- **README.md**
+  Main documentation file providing an overview of the project, usage instructions, and descriptions of the methodology.
+
 ##  Installation & How to Run
 
 ###  Option 1: Run on Google Colab
@@ -62,7 +75,7 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 - Click on **"GitHub"** in the pop-up window.
 - Paste the repository URL.
 - Press Enter or click the search icon.
-- Select the desired notebook (e.g., `modified_ahp_TOPSIS.ipynb`).
+- Select the desired notebook (e.g., `modified_ahp_TOPSIS_20_30_50.ipynb`).
 - It will launch in Colab, and you can run the cells directly in the browser.
   
 ***Note:You must be signed in with your Google account to use Google Colab.***
@@ -70,12 +83,14 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 **2. Upload the required datasets when prompted, or mount your Google Drive.**
 
 - **If you're loading datasets stored in your ***GitHub repository***, use the `raw` file URL:**
+Click on the dataset file in the repository. Then, click the "Raw" button located at the top-right corner of the file preview. This will open the raw data in a new tab. From there, copy the URL from the address bar and paste it into the variable that will store the file path inside single or double quote.For Example, to open the distressed dataset in AHP-MODIFIED-TOPSIS-EVALUATION folder:
+
 ```python
 import pandas as pd
-url = "https:/raw_url_for_each_datasets"
+url = "'https://raw.githubusercontent.com/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/refs/heads/main/AHP-MODIFIED-TOPSIS-EVALUATION/distressed.csv'"
 df = pd.read_csv(url)
 ```
-***Note: Change the url name with the raw url of required dataset***
+***Note: Change the URL name with the raw url of required dataset***
 
 - **if you're uploading from your local system, first download it from datasets folder use the code to chose from local system:**
 ```python
