@@ -49,8 +49,8 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 **1. You can run the notebooks directly in your browser using Google Colab without any installation.**
    
 **Links for Each Notebook :** Click the links provided for each notebook to open it in colab:
-- [AHP-Modified-TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/main/Notebooks/modfied-ahp-TOPSIS-20_30_50.ipynb)
-- [Permutaion-based-Entropy](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/main/Notebooks/permutation_based_entropy.ipynb)
+- [AHP-Modified-TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/main/AHP-MODIFIED-TOPSIS-EVALUATION/modfied-ahp-TOPSIS-20_30_50.ipynb)
+- [Permutaion-based-Entropy](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/main/Permutation-based-entropy/permutation_based_entropy.ipynb)
   
 **Open from Colab:**
 - Go to [Google Colab](https://colab.research.google.com/).
