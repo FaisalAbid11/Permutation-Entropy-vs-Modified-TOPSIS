@@ -44,15 +44,15 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 ### Description:
 This repository is organized into the following directories, each serving a specific part of the comparative analysis between Permutation Entropy and Modified TOPSIS:
 
-- **AHP-MODIFIED-TOPSIS-EVALUATION/**
+- **AHP-MODIFIED-TOPSIS-EVALUATION:**
   Contains CSV datasets representing different employee states (behavioral, distressed, enthusiastic) and a Jupyter notebook that uses these datasets to train rf model and sees how well a rf works when datasets are created using the AHP-Modified-Topsis+De-pareto principle.
 
-- **AHP-modified-topsis-de-pareto/**
+- **AHP-modified-topsis-de-pareto:**
   Includes supporting Excel files used for AHP scoring and modified TOPSIS rankings.
 
-- **MODIFIED-TOPSIS-feat-selection/**
+- **MODIFIED-TOPSIS-feat-selection:**
   Contains the implementation of the Modified TOPSIS feature selection method using robust distance measures. 
-- **Permutation-based-entropy/**
+- **Permutation-based-entropy:**
   This folder includes datasets formatted from entropy-based analysis and a notebook that applies permutation entropy techniques to assess feature importance across employee types using cleaned another dataset (`new numerical.csv`) ready for analysis.
 
 - **LICENSE**
