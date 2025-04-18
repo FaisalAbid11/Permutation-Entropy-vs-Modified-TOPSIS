@@ -25,11 +25,10 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 │
 │ ├── AHP-modified-topsis-de-pareto/
 │    ├── AHP.xlsx
-│    ├── modified_topsis.xlsx
-│    └──readme.md
+│    └──modified_topsis.xlsx
 │
 │ ├── MODIFIED-TOPSIS-feat-selection/
-│    ├── MODIFIED-TOPSIS-Feat.ipynb
+│    └── MODIFIED-TOPSIS-Feat.ipynb
 │
 │ ├── Permutation-based-entropy/
 │    ├── behavioral_employees.csv
@@ -104,7 +103,7 @@ drive.mount('/content/drive')
 ```
 ***Reminder: If you're not using Google Drive, you'll need to re-upload your files every time you reconnect to a Colab session***
 
-**3. Run the notebook cells in order.**
+**3. You can run all cell together by selecting Run all from Runtime option in menu bar or by pressing Ctrl+f9. But for better undersating run the notebook cells in order by pressing Ctrl+Enter for selected cell or by clicking the triangular icon/button on top left corner of the cell.**
 
 ### Option 2: Run Locally
 
