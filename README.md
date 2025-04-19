@@ -33,9 +33,6 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 │    ├── AHP.xlsx
 │    └──modified_topsis.xlsx
 │
-│ ├── MODIFIED-TOPSIS-feat-selection/
-│    └── MODIFIED-TOPSIS-Feat.ipynb
-│
 │ ├── Permutation-based-entropy/
 │    ├── behavioral_employees.csv
 │    ├── disteressed_employees.csv
@@ -51,13 +48,13 @@ This repository is organized into the following directories, each serving a spec
 
 - **AHP-MODIFIED-TOPSIS-EVALUATION:**
   Contains CSV datasets representing different employee states (behavioral, distressed, enthusiastic) and a Jupyter notebook that uses these datasets to train classifier model and sees how well a they work when datasets are created using the AHP-Modified-Topsis+De-pareto principle.
- **AHP-TOPSIS-EVALUATION:**
+
+- **AHP-TOPSIS-EVALUATION:**
   Contains CSV datasets representing different employee states (behavioral, distressed, enthusiastic) and a Jupyter notebook that uses these datasets to train classifier model and sees how well a they work when datasets are created using the AHP-Topsis+De-pareto principle.
+  
 - **AHP-modified-topsis-de-pareto:**
   Includes supporting Excel files used for AHP scoring and modified TOPSIS rankings.
-
-- **MODIFIED-TOPSIS-feat-selection:**
-  Contains the implementation of the Modified TOPSIS feature selection method using robust distance measures. 
+  
 - **Permutation-based-entropy:**
   This folder includes datasets formatted from entropy-based analysis and a notebook that applies permutation entropy techniques to assess feature importance across employee types using cleaned another dataset (`new numerical.csv`) ready for analysis.
 
