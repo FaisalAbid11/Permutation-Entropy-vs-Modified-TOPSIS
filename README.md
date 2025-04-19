@@ -23,6 +23,12 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 │    ├── enthusiastic.csv
 │    └── modified_ahp_TOPSIS_20_30_50.ipynb
 │
+│ ├── AHP-TOPSIS-EVALUATION/
+│    ├── behavioral.csv
+│    ├── disteressed.csv
+│    ├── enthusiastic.csv
+│    └── modified_ahp_TOPSIS_20_30_50.ipynb
+│
 │ ├── AHP-modified-topsis-de-pareto/
 │    ├── AHP.xlsx
 │    └──modified_topsis.xlsx
@@ -44,8 +50,9 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 This repository is organized into the following directories, each serving a specific part of the comparative analysis between Permutation Entropy and Modified TOPSIS:
 
 - **AHP-MODIFIED-TOPSIS-EVALUATION:**
-  Contains CSV datasets representing different employee states (behavioral, distressed, enthusiastic) and a Jupyter notebook that uses these datasets to train rf model and sees how well a rf works when datasets are created using the AHP-Modified-Topsis+De-pareto principle.
-
+  Contains CSV datasets representing different employee states (behavioral, distressed, enthusiastic) and a Jupyter notebook that uses these datasets to train classifier model and sees how well a they work when datasets are created using the AHP-Modified-Topsis+De-pareto principle.
+ **AHP-TOPSIS-EVALUATION:**
+  Contains CSV datasets representing different employee states (behavioral, distressed, enthusiastic) and a Jupyter notebook that uses these datasets to train classifier model and sees how well a they work when datasets are created using the AHP-Topsis+De-pareto principle.
 - **AHP-modified-topsis-de-pareto:**
   Includes supporting Excel files used for AHP scoring and modified TOPSIS rankings.
 
@@ -67,7 +74,7 @@ This repository is organized into the following directories, each serving a spec
    
 **Links for Each Notebook :** Click the links provided for each notebook to open it in colab:
 - [AHP-Modified-TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/5cfabc96eb5e0fc8977328f8c66c939938d5c99f/AHP-MODIFIED-TOPSIS-EVALUATION/modfied_ahp_TOPSIS_20_30_50.ipynb)
-- [Permutaion-based-Entropy](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/5cfabc96eb5e0fc8977328f8c66c939938d5c99f/Permutation-based-entropy/permutation_based_entropy.ipynb)
+- [Permutaion-based-Entropy](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/0418c252cfb46b6a5b218ac8115bc440292cc47b/Permutation-based-entropy/permutation_based_entropy.ipynb)
   
 **Open from Colab:**
 - Go to [Google Colab](https://colab.research.google.com/).
@@ -173,7 +180,7 @@ The employee categorization is based on employee productivity and divided into t
 - **Distressed**: The least productive employees.
 ## Evaluation
 
-The categorized datasets (*enthusiastic*, *behavioral*, and *distressed*) generated from both the **Permutation-Based Entropy + TOPSIS** and the **AHP-Modified TOPSIS + De-Pareto** methods were used to train and test a **Random Forest** model using a **70/30 train-test split**.
+The categorized datasets (*enthusiastic*, *behavioral*, and *distressed*) generated from both the **Permutation-Based Entropy + TOPSIS** and the **AHP-Modified TOPSIS + De-Pareto** methods were used to train and test a 5 Classifier models (**SVM,KNN,Random Forest,Logistic Regression,XGBoost**) using a **70/30 train-test split**.
 
 To compare the effectiveness of the two feature selection pipelines, the following evaluation metrics were used:
 - **Accuracy**
@@ -184,23 +191,5 @@ To compare the effectiveness of the two feature selection pipelines, the followi
 - **ROC-AUC**
 
 This evaluation helped determine which method yielded better predictive performance in identifying employee turnover intention (TOI), ultimately highlighting the impact of the proposed **Modified TOPSIS** method. 
-
-## Result
-
-### Modified TOPSIS vs Permutation-Based Entropy
-
-The table below compares the performance of the Random Forest model on datasets generated using two different feature selection methods. Across all categories and evaluation metrics, the **Modified TOPSIS method consistently outperformed** the **Permutation-Based Entropy** method, demonstrating its effectiveness in selecting impactful features for predicting employee turnover intention.
-
-| Category (Dataset Split) | Metric     | Modified TOPSIS | Permutation-Based Entropy |
-|--------------------------|------------|------------------|----------------------------|
-| **20% (Distressed)**     | Accuracy   | 0.9882           | 0.9167                     |
-|                          | F1 Score   | 0.9881           | 0.9190                     |
-|                          | MCC        | 0.9768           | 0.8347                     |
-| **30% (Behavioral)**     | Accuracy   | 0.9566           | 0.9073                     |
-|                          | F1 Score   | 0.9561           | 0.8998                     |
-|                          | MCC        | 0.9134           | 0.8238                     |
-| **50% (Enthusiastic)**   | Accuracy   | 0.9801           | 0.9245                     |
-|                          | F1 Score   | 0.9798           | 0.9221                     |
-|                          | MCC        | 0.9606           | 0.8505                     |
 
 ***To check the results , run the cells in order and evaluate the metrics for each method by running the notebooks***
