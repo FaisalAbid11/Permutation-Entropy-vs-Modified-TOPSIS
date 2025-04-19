@@ -27,7 +27,7 @@ Permutaion-Entropy-vs-Modified-TOPSIS/
 │    ├── behavioral.csv
 │    ├── disteressed.csv
 │    ├── enthusiastic.csv
-│    └── modified_ahp_TOPSIS_20_30_50.ipynb
+│    └── ahp_TOPSIS_20_30_50.ipynb
 │
 │ ├── AHP-modified-topsis-de-pareto/
 │    ├── AHP.xlsx
@@ -74,6 +74,7 @@ This repository is organized into the following directories, each serving a spec
    
 **Links for Each Notebook :** Click the links provided for each notebook to open it in colab:
 - [AHP-Modified-TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/5cfabc96eb5e0fc8977328f8c66c939938d5c99f/AHP-MODIFIED-TOPSIS-EVALUATION/modfied_ahp_TOPSIS_20_30_50.ipynb)
+- [AHP-TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/a2978ae2740a9c371dc9e673f0d5e80c9c58fa52/AHP-TOPSIS-EVALUATION/ahp_TOPSIS_20_30_50.ipynb)
 - [Permutaion-based-Entropy](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/0418c252cfb46b6a5b218ac8115bc440292cc47b/Permutation-based-entropy/permutation_based_entropy.ipynb)
   
 **Open from Colab:**
