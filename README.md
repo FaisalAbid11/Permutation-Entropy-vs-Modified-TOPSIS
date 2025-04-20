@@ -70,7 +70,7 @@ This repository is organized into the following directories, each serving a spec
 **1. You can run the notebooks directly in your browser using Google Colab without any installation.**
    
 **Links for Each Notebook :** Click the links provided for each notebook to open it in colab:
-- [AHP-Modified-TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/789260455ba34f695d8255722e018a7b00f04b39/AHP-MODIFIED-TOPSIS-EVALUATION/modfied_ahp_TOPSIS_20_30_50.ipynb)
+- [AHP-Modified-TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/b23bdbc756f462f7c1d1f896d138932f36dabf72/AHP-MODIFIED-TOPSIS-EVALUATION/modfied_ahp_TOPSIS_20_30_50.ipynb)
 - [AHP-TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/b2cebc45da73259e06a60e42ede05dd186626616/AHP-TOPSIS-EVALUATION/ahp_TOPSIS_20_30_50.ipynb)
 - [Permutaion-based-Entropy](https://colab.research.google.com/github/FaisalAbid11/Permutation-Entropy-vs-Modified-TOPSIS/blob/983bfaedc9d2c35a86497ad82c5ecd2dc252863f/Permutation-based-entropy/permutation_based_entropy.ipynb)
   
